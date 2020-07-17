@@ -280,6 +280,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+	.single-page-title {
+		margin-top: 50px;
+	}
 	.banner-carousel .content-box {
 		position: relative;
 		min-height: 360px;
