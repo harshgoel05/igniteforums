@@ -11,7 +11,9 @@
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
 		var local = window.location.href;
-		if (!(local.includes('register') || local.includes('team')))
+		if (
+			!(local.includes('register.html') || local.includes('team.html') || local.includes('gallery.html') || local.includes('contact.html'))
+		)
 			if ($('.main-header').length) {
 				var windowpos = $(window).scrollTop();
 				var siteHeader = $('.main-header');
